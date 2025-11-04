@@ -1,0 +1,8 @@
+execve("./reverse", ["./reverse"], 0x7ffe92b878c0 /* 25 vars */) = 0
+write(1, "Enter your string (max 100 chars"..., 36) = 36
+read(0, "retro\n", 101)                 = 6
+write(1, "Reversed: ", 10)              = 10
+write(1, "orter", 5)                    = 5
+write(1, "\n", 1)                       = 1
+exit(0)                                 = ?
++++ exited with 0 +++
