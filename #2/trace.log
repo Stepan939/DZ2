@@ -1,0 +1,10 @@
+execve("./sum", ["./sum"], 0x7fff98b8e3b0 /* 25 vars */) = 0
+write(1, "Enter first number: \0", 21)  = 21
+read(0, "34\n", 16)                     = 3
+write(1, "Enter second number: \0", 22) = 22
+read(0, "45\n", 16)                     = 3
+write(1, "Sum = \0", 7)                 = 7
+write(1, "79\0", 3)                     = 3
+write(1, "\n", 1)                       = 1
+exit(0)                                 = ?
++++ exited with 0 +++
